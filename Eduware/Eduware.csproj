@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +53,24 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\form_author.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\form_author.Designer.cs">
+      <DependentUpon>form_author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\form_lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\form_lecturer.Designer.cs">
+      <DependentUpon>form_lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\form_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\form_student.Designer.cs">
+      <DependentUpon>form_student.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

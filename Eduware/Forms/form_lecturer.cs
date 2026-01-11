@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Eduware.Forms
+{
+    public partial class form_lecturer : Form
+    {
+        public form_lecturer()
+        {
+            InitializeComponent();
+        }
+    }
+}
